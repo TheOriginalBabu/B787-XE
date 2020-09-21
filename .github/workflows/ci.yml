@@ -25,7 +25,7 @@ jobs:
           author_name: GitHub Actions Bot
           author_email: <>
           message: "[CI] Updated json files"
-          add: "*.json"
+          add: "*.json, z_timelog.txt"
           cwd: "./B787-XE/"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
